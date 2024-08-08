@@ -1,0 +1,48 @@
+.sliders{
+    width: 600px;
+}
+.slide_item{
+    background: var(--background-slide-items);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.slide_img-01 .slide_img-02 .slide_img-03 img{
+    width: 100%;
+}
+
+.slide_img-01{
+    background: #eeeaff;
+}
+
+.slide_img-02{
+    background: #d3cef2;
+}
+.slide_img-03{
+    background: #eeaaff;
+}
+
+.gym-buddies-pic{
+    width: 500px;
+    height: 370px;
+}
+
+.slide_img-01, .slide_img-02, .slide_img-03{
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.slide_item h4{
+    margin-bottom: 10px;
+    color: var(--heading-color);
+}
+.slide_item p{
+    color: var(--heading-color);
+    line-height: 28px;
+}
+
+.sliders h2{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    text-align: center;
+}

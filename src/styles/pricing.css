@@ -1,0 +1,147 @@
+.pricing_top{
+    text-align: center;
+}
+
+.pricing_top h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.pricing_top p{
+    font-size: 1.1rem;
+    color: var(--heading-color);
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.pricing_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 2rem;
+}
+
+.pricing_item{
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 33%;
+    background: white;
+}
+
+.pricing_card-top{
+    padding: 30px;
+    border-bottom: 1px solid #d3cef2;
+    text-align: center;
+}
+
+.pricing_card-top h2{
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.pricing_card-top .pricing{
+    font-size: 1.4rem;
+}
+
+.pricing_card-top .pricing span{
+    font-size: 1rem;
+    color: #666;
+}
+
+.pricing_item .services{
+    padding: 30px;
+}
+
+.pricing_item .services ul li{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+    color: #666;
+    line-height: 28px;
+}
+
+.pricing_item .services ul li span{
+    font-size: 0.7rem;
+}
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    min-height: 300px;
+  }
+  
+  .services ul {
+    margin-bottom: auto;
+  }
+  
+  .services button {
+    align-self: center;
+    margin-bottom: 20px;
+  }
+
+  .fire-icon{
+    color: orange;
+    display: inline-block;
+    transform: translateY(3px);
+  }
+
+.pricing_item-01 .pricing_card-top{
+    background-color: gray;
+    color: white;
+  }
+.pricing_item-01 .pricing_card-top h2 span{
+    color: rgb(214, 212, 212);
+}
+
+.pricing_item-01 .pricing_card-top h2 {
+    color: white;
+}
+
+.pricing_item-01 .services ul li span{
+    color: gray;
+  }
+
+.pricing_item-01 button{
+    background-color: gray;
+}
+
+.pricing_item-02 .pricing_card-top{
+    background: var(--primary-color);
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+.pricing_item-02 .pricing_card-top h2{
+    color: white;
+}
+
+.pricing_item-02 .pricing_card-top h2 span{
+    color: rgb(214, 212, 212);
+}
+
+.pricing_item-02 .services ul li span{
+    color: var(--primary-color);
+}
+
+.pricing_item-03 .pricing_card-top{
+    background-color: #d7337a;;
+    color: white;
+}
+
+.pricing_item-03 .pricing_card-top h2 span{
+    color: rgb(214, 212, 212);
+}
+
+.pricing_item-03 .pricing_card-top h2{
+    color: white;
+}
+
+.pricing_item-03 .services ul li span{
+    color: #d7337a;;
+}
+
+.pricing_item-03 button{
+    background-color: #d7337a;;
+}

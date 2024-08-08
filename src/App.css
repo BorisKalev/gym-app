@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root{
+    --primary-color : #6f55f2;
+    --heading-color: #132742;
+    --bg-gradient: linear-gradient(90deg, rgba(103,101,240,1), rgba(141,141,235,1));
+    --font-name: "Questrial", sans-serif;
+    --background-color : white;
+    --background-color-body : aliceblue;
+    --background-icons-wrappers : white;
+    --first-ring : rgba(141, 141, 235, 1);
+    --second-ring: #b5a9f3;
+    --third-ring: #d3cef2;
+    --box-shadow: #d3cef2;
+    --background-slide-items : white;
+    --mode : #121212;
+    --mode-color : white;
+    --mode-hover : rgb(83, 83, 83);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-name);
+    background-color: var(--background-color-body);
+}
+
+body.dark-mode {
+    --primary-color: #6f55f2;
+  --heading-color: #d3d1ce;
+  --background-color: #132742; /* A dark, but not black, background color */
+  --bg-gradient: linear-gradient(90deg, rgba(103,101,240,1), rgba(141,141,235,1));
+  --font-name: "Questrial", sans-serif;
+  --background-color-body: #121212; /* A slightly lighter dark background */
+  --background-icons-wrappers: #2c2c2e; /* A dark gray for icon wrappers */
+  --first-ring: rgba(141, 141, 235, 1);
+  --second-ring: #b5a9f3;
+  --third-ring: #d3cef2;
+  --box-shadow: rgba(0, 0, 0, 0.5);
+  --background-slide-items : #1c1c1e;
+  --mode : white;
+  --mode-color : black;
+  --mode-hover : rgb(250, 240, 185);
+  }
+
+html{
+    scroll-behavior: smooth;
+}
+
+section{
+    padding : 50px 0px;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+
+a:hover{
+    color: unset;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Reusable classes*/
+
+.container {
+    width: 1140px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.section_title{
+    color: var(--heading-color);
+    font-weight: 700;
+}
